@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CE172515-A863-4526-8E18-C3FAF89C8DB6}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatworkSDK.test", "ChatworkSDK.test\ChatworkSDK.test.csproj", "{D43ABDD6-B4E1-4A57-AA28-02992A9DE93E}"
