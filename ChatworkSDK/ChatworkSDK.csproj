@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>ChatworkSDK</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>(C) 2021 Sakepon, Kota Sakahara</Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+    <PackageReference Include="System.Text.Json" Version="5.0.1" />
+  </ItemGroup>
+
+</Project>
