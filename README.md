@@ -1,3 +1,7 @@
+# Don't use it! In development!
+
+---
+
 # ChatworkSDK for .NET
 
 This project is unofficial and may become unusable due to API specification updates.
